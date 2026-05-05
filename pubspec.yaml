@@ -1,0 +1,41 @@
+name: hindi_verbs_master
+description: Hindi Verbs Memorization App with SRS, Gamification & Voice Recording
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.1.2
+
+  # Audio
+  record: ^6.0.0
+  audioplayers: ^6.1.0
+
+  # Storage & Files
+  shared_preferences: ^2.3.2
+  path_provider: ^2.1.4
+
+  # Permissions
+  permission_handler: ^11.3.1
+
+  # Animations & UI
+  flutter_animate: ^4.5.0
+  percent_indicator: ^4.2.3
+  confetti: ^0.7.0
+  google_fonts: ^6.2.1
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
